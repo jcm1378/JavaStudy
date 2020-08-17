@@ -1,9 +1,13 @@
-package pjtTest;
+/*
+ * package pjtTest;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class lecture2 {
+ public class lecture2 {
 	public static void main(String[] args) {
+		
+	
 		//배열과 메모리
 		
 		int[] arrAtt1 = {10, 20, 30, 40, 50};
@@ -41,8 +45,32 @@ public class lecture2 {
 		System.out.println("arrMul[0] : " + Arrays.toString(arrMul[1]));
 		System.out.println("arrMul[0] : " + Arrays.toString(arrMul[2]));
 		
+		//반복문 for
+		System.out.print("INPUT NUMBER : ");
+		Scanner scanner = new Scanner(System.in);
+		int inputNum = scanner.nextInt();
+		
+		for(int i =1; i<10; i++) {
+			System.out.printf("%d * %d = %d\n",inputNum,i,(inputNum*i));
+		}
+		
+		//반복문 while
+		
+	System.out.print("INPUT NUMBER : "	);
+	int num = scanner.nextInt();
+	int i =1;
+	while(i<10) {
+		System.out.printf("%d * %d = %d\n", num,i,(num*i));
+		i++;
 	}
+		
 	
+	//do while = 최소한 한번은 실행한다.
+	do {
+		System.out.println("무조건 1번은 실행합니다.");
+	} while (false);
 
-
+	}
 }
+*/
+
